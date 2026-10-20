@@ -1,0 +1,16 @@
+# yuelao-video-agent
+
+- 当前只实现对标账号拆解。不要展开脚本、视频制作或自动发布。
+- 一主题一分支；不得直接向 main 推送。提交 PR 后由仓库所有者决定合入。
+- 主运营材料由主会话维护，本仓库不改写运营工作区的交接包或路线。
+- 历史样例、人工整理与真实自动分析必须区分；服务未接通时不返回预置结果冒充分析。
+- 主要结论必须关联材料；上传文件不等于读取其内容。报告和内容卡保留版本快照。
+- 不提交凭据、浏览器会话、个人后台数据、未授权的原始材料。
+- 验证：npm run check、npm test；页面 QA 另行记录，不能用单元测试冒充浏览器实测。
+- 工程进度记 docs/STATUS.md，问题记 docs/PITFALLS.md。
+
+## 项目治理
+
+以 [docs/project-governance.md](docs/project-governance.md) v1.0 和 [CONTRIBUTING.md](CONTRIBUTING.md) 为准。对标模块仅负责自身范围及最小基础设施；未来功能另建功能会话，共用仓库。候选选题交接卡不表示最终入选或已排期。
+
+所有者 Admin，协作者 Write；main 一票 PR 保护且不强制管理员，同时启用精确 main 的 Restrict updates，仅管理员角色 Always bypass。当前不邀请，不声称已执行 Write 身份越权测试。最终合入由所有者决定。

@@ -1,0 +1,14 @@
+{
+  "name": "yuelao-video-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check dist/app.js && node --check dist/domain.js && node --check dist/storage.js && node --check dist/demo.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
