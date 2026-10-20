@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "月老 · 本机公开页面采集",
+  "version": "0.1.0",
+  "description": "为本机月老工作台读取用户指定的抖音公开主页和章节。不读取 Cookies、私信或账号设置。",
+  "permissions": [
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.douyin.com/*",
+    "https://douyin.com/*",
+    "http://localhost:4173/*",
+    "http://127.0.0.1:4173/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://localhost:4173/*",
+        "http://127.0.0.1:4173/*"
+      ],
+      "js": [
+        "bridge.js"
+      ]
+    }
+  ],
+  "action": {
+    "default_title": "月老采集桥：在 localhost:4173 发起分析"
+  }
+}
