@@ -14,4 +14,4 @@
 - [x] dist/index.html、styles.css、app.js：输入、材料、报告、内容卡、导出、响应式布局。
 - [x] scripts/server.mjs：仅托管 dist，拒绝越界路径；npm run check 与 npm test。
 - [x] 浏览器验收正常流程和材料不足流程；工具不可用时明确留空验收状态。
-- [ ] docs/STATUS.md、PITFALLS.md、仓库权限记录与 README；提交分支并开 PR，不自动合入。
+- [x] docs/STATUS.md、PITFALLS.md、仓库权限记录与 README；提交分支并开 PR，不自动合入。

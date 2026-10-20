@@ -4,7 +4,7 @@
 
 ## 预览
 
-- 当前可用入口为本地预览。私有站点尚未发布，见 docs/STATUS.md。
+- [打开本地原型](http://localhost:4173/)；用户选择本轮仅本地预览，不上传 Sites。
 - 本地：Node.js 22+，执行 `npm start`，打开 http://localhost:4173/ 。无须安装第三方依赖。
 - 点击“看一份拆解样例”，可预览报告、来源与候选卡。样例来自历史研究摘要，原始证据包未完整归档，非实时分析。
 
@@ -33,6 +33,7 @@ npm test
 npm start
 ```
 
+- [PR #1](https://github.com/LQY-920/yuelao-video-agent/pull/1)：已提交，未合并。
 - 当前分支：`feat/benchmark-analysis`。
 - [项目协作规则](docs/project-governance.md)、[贡献约定](CONTRIBUTING.md)、[进度与验证](docs/STATUS.md)、[仓库权限核验](docs/repository-access.md)。
 - `dist/domain.js`：任务、报告快照、候选卡与导出契约。

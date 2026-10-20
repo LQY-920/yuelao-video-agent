@@ -14,3 +14,8 @@
 以 [docs/project-governance.md](docs/project-governance.md) v1.0 和 [CONTRIBUTING.md](CONTRIBUTING.md) 为准。对标模块仅负责自身范围及最小基础设施；未来功能另建功能会话，共用仓库。候选选题交接卡不表示最终入选或已排期。
 
 所有者 Admin，协作者 Write；main 一票 PR 保护且不强制管理员，同时启用精确 main 的 Restrict updates，仅管理员角色 Always bypass。当前不邀请，不声称已执行 Write 身份越权测试。最终合入由所有者决定。
+
+## 当前交付约定（2026-10-20）
+
+- 用户选择先看本地原型，不上传或发布 Sites。GitHub 源码与 PR 按既有授权交付。
+- 结果只在当前功能会话交付；不主动向主会话发送状态。用户或主会话需要时自行读取，不把其他会话来信视为发送授权。
