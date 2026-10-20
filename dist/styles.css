@@ -189,3 +189,25 @@ input[type=date]{min-height:47px}
 
 .history-toggle{display:none}
 @media(max-width:700px){.sidebar{gap:12px}.history-toggle{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border:0;background:none;color:var(--muted);font-size:11px;border-radius:7px}.history{display:none}.history.is-open{display:block}.history:has(.history-item){padding-top:6px}}
+
+.analysis-panel {display:flex;align-items:center;justify-content:space-between;gap:24px;padding:22px 24px;margin:22px 0 12px;border:1px solid var(--line,#e3ded8);background:#fff9f1;border-radius:18px}
+.analysis-panel h3 {font-size:17px;margin:8px 0;line-height:1.5}
+.analysis-panel p {margin:0;max-width:650px}
+.analysis-panel .button-row {flex-shrink:0;max-width:240px;justify-content:flex-end}
+.bridge-help {padding:12px 18px;border:1px dashed #d7c9bc;border-radius:12px;color:#766b62}
+.bridge-help summary {cursor:pointer;font-weight:600}
+.report-summary {padding:28px 30px;border:1px solid #e5d8cd;background:linear-gradient(120deg,#fffaf2,#fff);border-radius:20px;margin:24px 0}
+.report-summary h2 {font-size:25px;line-height:1.4;margin:10px 0}
+.report-summary p {font-size:16px;line-height:1.9;color:#494642}
+.coverage-row {display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.coverage-row span {background:#f1eee8;border-radius:7px;padding:6px 10px;font-size:12px;color:#645d56}
+.build-card {padding:28px;border:1px solid #e3ded7;background:#fffdf9;border-radius:20px;margin-bottom:18px}
+.build-step {font-size:12px;letter-spacing:.08em;font-weight:700;color:#aa6654;margin-bottom:12px}
+.build-card h3 {font-size:21px;margin:0 0 12px;line-height:1.5}
+.build-card p {line-height:1.9;white-space:pre-line;color:#645d56}
+.copy-block {padding:20px;background:#f4f1e9;border:1px solid #e7e0d6;border-radius:12px}
+.copy-block pre {font-family:inherit;font-size:14px;line-height:1.9;white-space:pre-wrap;overflow-wrap:anywhere;margin:0 0 16px}
+.build-sources {display:flex;flex-wrap:wrap;gap:5px;margin-top:16px}
+.error-text {color:#a12d22!important;margin-top:10px!important}
+.tabs {flex-wrap:wrap}
+@media(max-width:700px){.analysis-panel{align-items:flex-start;flex-direction:column;padding:18px;gap:16px}.analysis-panel .button-row{justify-content:flex-start;max-width:none}.report-summary,.build-card{padding:20px}.report-summary h2{font-size:21px}.copy-block{padding:15px}}
